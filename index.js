@@ -1,12 +1,12 @@
 // Write the function camelize(str) that changes dash-separated words like “my-short-string” into camel-cased “myShortString”.
 //1
 function camelize(str) {
- //write your code here
+  return str.split("-");
 }
 
-console.log(camelize("background-color"))
-console.log(camelize("list-style-image"))
-console.log(camelize("-webkit-transition"))
+console.log(camelize("background-color"));
+console.log(camelize("list-style-image"));
+console.log(camelize("-webkit-transition"));
 
 //Write the code to create another array from it, of objects with id and fullName, where fullName is generated from name and surname.
 //2
@@ -25,5 +25,5 @@ let users = [john, pete, mary];
     { fullName: "Mary Key", id: 3 }
   ] */
 
-console.log(usersMapped[0].id); // 1
-console.log(usersMapped[0].fullName); // John Smith
+//console.log(usersMapped[0].id); // 1
+//console.log(usersMapped[0].fullName); // John Smith
